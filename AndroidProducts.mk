@@ -12,9 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8441.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_g8441.mk \
+    $(LOCAL_DIR)/aicp_lilac.mk
 
 COMMON_LUNCH_CHOICES += \
     aosp_g8441-eng \
-    aosp_g8441-userdebug
+    aosp_g8441-userdebug \
+    aicp_lilac-eng \
+    aicp_lilac-userdebug
 
