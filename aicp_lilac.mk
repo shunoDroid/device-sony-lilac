@@ -1,5 +1,4 @@
 # Inherit AICP common Phone stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 $(call inherit-product, device/sony/lilac/aosp_g8441.mk)
 
 PRODUCT_NAME := aicp_lilac
